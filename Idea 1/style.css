@@ -1,0 +1,102 @@
+*{
+  margin: 0;
+  padding: 0;
+ box-sizing: border-box; 
+}
+
+.title{
+  background-image: url('images/Wood.jpg');
+  background-clip: text;
+  color: transparent;
+  }
+
+
+
+.color{
+  color: rgb(238, 255, 0);
+}
+
+.items{
+  justify-content: center;  
+  padding-top: 10rem;
+  padding-left: 15%;
+  padding-bottom: 20rem;
+  font-size: 60px;
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+
+ .Sign-up {
+  cursor: pointer;
+  border: solid 5px purple;
+  background-color: transparent;
+  font-weight: 900;
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  border-radius: 100px;
+  padding: 2rem;
+  font-size: 20px;
+ 
+}
+
+.Sign-up{
+  transition-property:  background-color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.2s;
+  transition-delay: 0.25s;
+}
+
+
+.Sign-up:hover{
+  scale: 1.05;
+  background-color: purple;
+}
+
+
+.plan{
+  border: none;
+  background-color: burlywood;
+  padding: 1rem;
+  border-radius: 3rem;
+}
+
+.section-1{
+  position: sticky;
+  width: 100%;
+  height: 100%;
+  margin-top: 30px;
+  border-top: solid;
+  border-bottom: solid;
+  padding: 200px;
+}
+
+.team{
+  
+  text-align: right;
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+}
+
+footer{
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  padding: 30px;
+  background-color: rgba(209, 23, 178, 0.726);
+  filter: drop-shadow(0 5px);
+}
+
+h4{
+  font-size: 19px;
+  text-align: center;
+}
+main{
+  background-image: url('images/Halos.jpg');
+  position: relative;
+  color: rgba(34, 5, 61, 0.61);
+  
+}
